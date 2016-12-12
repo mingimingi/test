@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+
+
+#wrap{
+width:1200px; height: 800px; background:#FFFFFF;	
+}
+
+#wrap #top{
+	width:1180px; height:130px; margin-left:10px; margin-bottom:10px; background:black;
+}
+#wrap #headerleft{
+	width:1180px; height:80px; margin-left:10px; margin-bottom:10px; background:#FFFFFF;
+}
+
+
+#wrap #left{
+    display:inline; float:left; width:30px; height:240px; margin-left: 10px; background:#FFFFFF;
+}
+#wrap #content{
+	float:left; width:900px; height:240px; margin-left:100px; background:#FFFFFF;
+}
+
+
+#wrap #right{
+	float:left; width:130px; height: 240px; margin-left:10px; background:#FFFFFF;
+}
+
+#wrap #content2{
+	 width: 1180px;height: 340px; float : left;
+}
+
+#wrap #content2top{
+	 width: 1163px; height: 50px; float : left;
+}
+
+
+
+#wrap #content2bottom{
+	 overflow-y:scroll; width: 1180px; height: 290px; float : left;
+}
+
+
+
+
+#wrap #content3{
+	width: 100%;height: 70px; float : right; background:#FFFFFF;
+}
+#footer{
+
+display:block;
+	clear:both;
+	width:100%;
+	height:60px;
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-top:28px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	border-top:solid;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border-color:#dddddd;
+	border-width:2px;
+	background-color:;
+	background-image:url(../../../assets/);
+	background-position:left top;
+	background-repeat:no-repeat;
+	text-align:center;
+	color:;
+	font-size:inherit;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	line-height:inherit;
+
+}
+span{
+	font-size:12pt;
+}
+
+
+
+
+
+
+/*page container*/
+
+#SF-outer-container {
+    width : 1120px;
+    margin-left : auto;
+    margin-right : auto;
+}
+#SF-inner-container {
+    width : 1120px;
+    margin-left : auto;
+    margin-right : auto;
+}
+#SF-footer {
+    clear : both;
+}
+#SF-rightblock {
+    width : 660px;
+}
+#SF-leftblock {
+    width : 460px;
+}
+#SF-contents {
+    width : 650px;
+    padding-left : 5px;
+    padding-right : 5px;
+}
+#SF-navigation {
+    padding-left : 5px;
+    padding-right : 25px;
+    width : 230px;
+    margin-top : 10px;
+    margin-bottom : 30px;
+}
+#SF-header {
+    width : 1120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Login*/
+
+#lean_overlay {
+position: fixed;
+z-index: 10000;
+top: 0px;
+left: 0px;
+height:100%;
+width:100%;
+background: #000;
+display: none;
+}
+
+#signup {
+     width: 404px;
+     padding-bottom: 2px;
+    display:none;
+    background: #FFF;
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);       
+}
+
+#signup-header { background: url(../img/hd-bg.png); padding: 18px 18px 14px 18px; border-bottom: 1px solid #CCC; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+
+#signup-header  h2 { color: #444; font-size: 2em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+#signup-header  p { color: #444; font-size: 1.3em; margin: 0; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); text-shadow: none; }
+
+#signup .txt-fld { position: relative; width: 364px; padding: 14px 20px; border-bottom: 1px solid #EEE; text-align: right; }
+#signup .btn-fld {width: 254px; overflow: hidden; padding: 12px 20px 12px 130px; }
+
+
+#signup .txt-fld label { display: block; float: left; width: 90px; padding-top: 8px; color: #222; font-size: 1.3em; text-align: left;  }
+#signup .txt-fld input { width: 244px; padding: 8px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 1.2em; color: #222; background: #F7F7F7; font-family: "Helvetica Neue"; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; }
+#signup .txt-fld input.good_input { background: #DEF5E1 url(../img/good.png) 236px center no-repeat; }
+#signup .txt-fld input.error_input { background: #FDE0E0; }
